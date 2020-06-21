@@ -26,11 +26,6 @@ public class TransactionDetail  {
     @JsonFormat(pattern = AppConstants.DATE_TIME_PATTERN)
     private LocalDateTime transactionDate;
 
-
- /*   private BigDecimal purchasePrice;
-    @Temporal(TemporalType.DATE)
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern =  "MM/dd/yyyy")
-    private Date purchaseDate;*/
     public TransactionDetail(){
     }
 
